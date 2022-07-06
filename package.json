@@ -1,0 +1,25 @@
+{
+  "name": "std",
+  "version": "1.0.0",
+  "description": "a study",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "set PORT=8081 && node ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ViFeBs/STD-API-NODE.git"
+  },
+  "author": "Bruno V",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ViFeBs/STD-API-NODE/issues"
+  },
+  "homepage": "https://github.com/ViFeBs/STD-API-NODE#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "mongodb": "^4.7.0"
+  }
+}
